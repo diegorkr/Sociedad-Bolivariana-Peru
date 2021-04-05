@@ -1,0 +1,72 @@
+.img-responsive{
+	transition: 0.5s ease;
+}	
+
+.img-responsive:hover{
+	box-shadow: 4px 5px 5px 4px #888888;
+	border-radius: 10px;
+}
+
+.heading{
+	text-align: center;
+}
+
+.btn-info{
+	transition: 0.5s ease-in-out;
+	letter-spacing: 2px;
+}
+
+.row{
+	display: flex;
+	width: 50%;
+}
+.imagenPrincipal{
+	width: 100%;
+}
+.imagenModal{
+	width: 100%;
+}
+.contenedorImg{
+	display: flex;
+	justify-content: center;
+}
+
+  
+  /* 
+	##Device = Tablets, Ipads (landscape)
+	##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	.row{
+		background-color: black;
+		width: 100%;
+	}
+  }
+  
+  /* 
+	##Device = Low Resolution Tablets, Mobiles (Landscape)
+	##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+  .row{
+	 
+	  width: 100%;
+  }
+	
+  }
+  
+  /* 
+	##Device = Most of the Smartphones Mobiles (Portrait)
+	##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+	
+	.row{
+		
+		width: 100%;
+	}
+	
+  }
